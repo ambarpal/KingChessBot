@@ -9,7 +9,7 @@ This possibility can be checked by a simple bfs of the board graph before making
 This is demonstrated in beaten-1-suffocate
 
 ##Method 2
-The bot essentially makes a two-level bfs of the board graph, and decides greedily based on that. This can be beaten by doing a complete bfs over the board graph and ranking weighing every level a fraction that reduces with every level.
+The bot essentially takes a two-level bfs of the board graph, and decides greedily based on that. This can be beaten by doing a complete bfs over the board graph and weighing every level by a fraction that reduces with every level.
 [Coming Soon]
 
 #Note
