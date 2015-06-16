@@ -66,6 +66,7 @@ mov = [[-1,0], [-1, 1], [0, 1], [1, 1], [1, 0], [1, -1], [0, -1], [-1, -1]]
 ### The main algorithm code starts here
 
 def getnext(n, me, grid, opp):
+
 	x, y = me
 	mini = 999999
 	j,k = opp
@@ -108,7 +109,7 @@ def gethur(x, y, opp,grid, n):
     else:
     	s=0
     	for m in mov:
-    		a,b=m
+   			a,b=m
     		if (not (x + a< 1 or x + a > n)) and (not(y + b < 1 or y + b >n )) and (not (grid[y+b][x+a] == 1)):
     			if grid[y+b][x+a]==0 or grid[y+b][x+a]==3:
     				s+=1
